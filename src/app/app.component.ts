@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {GoldManagmentService} from './gold-managment.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  gold:number=0;
+  constructor(private _goldManagmentService:GoldManagmentService ){
+    this.gold=this._goldManagmentService.gold;}
+    
 }

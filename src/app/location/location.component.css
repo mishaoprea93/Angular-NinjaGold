@@ -1,0 +1,26 @@
+#location {
+    background-color: yellowgreen;
+    width: 900px;
+    height: 200px;
+    margin-left: 50px;
+    outline: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.locations {
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(192, 89, 89);
+    width: 100px;
+    height: 50px;
+    font-size: 13pt;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px grey;
+}

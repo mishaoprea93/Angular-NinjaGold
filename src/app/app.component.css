@@ -1,0 +1,14 @@
+#wrapper {
+    margin: 50px auto;
+    height: 700px;
+    width: 1000px;
+    background-color: grey;
+    outline: 2px dotted black;
+}
+
+.top {
+    height: 10%;
+    width: 30%;
+    display: inline-block;
+    margin-left: 50px;
+}
